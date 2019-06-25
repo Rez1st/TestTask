@@ -38,23 +38,23 @@ To Run
 To configure:
 There are several key config features to configure search:
 **MakeButtonFinderOptions**
-      <add key="text" value="OK" />
-      <add key="href" value="#ok" />
-      <add key="title" value="Make-Button" />
-      <add key="id" value="make-everything-ok-button" />
-      <add key="class" value="btn-success" />
+      key="text" value="OK"
+      key="href" value="#ok"
+      key="title" value="Make-Button"
+      key="id" value="make-everything-ok-button"
+      key="class" value="btn-success"
       _**Description**_: key is an attribute we can add\remove attributes depending on how we want to search for tags
                          value in this case is simple string that will use Contains(), so it will take "text" attribute and will do                             .Contains(value) 
                         More values will hit the case more chances for Tag to be selected
 **MakeButtonTagContainer**
-       <add key="tag" value="a" />
+       key="tag" value="a"
       _**Description**_: to simplify search - we will apply previously described finder options only on items with tag definded here.
                          In test task I made assumption it will be in <a /> tag
 **TagFinderCustomOptions**
       <BootstrapCustomOption>
-        <add key="attribute" value="class" />
-        <add key="pattern" value="btn-" />
-        <add key="validator" value="btn-success" />
+        key="attribute" value="class"
+        key="pattern" value="btn-"
+        key="validator" value="btn-success"
       </BootstrapCustomOption>
      _**Description**_: This is basically custom rules that will check does found item corresponds our custom needs
                         in this case it indicates standart bootstrap class "btn-" and make sure it will be used only with 
