@@ -8,9 +8,9 @@ Frameworks:
 .Net 4.7.2
 
 Packages dependencies:
-  <package id="FSharp.Core" version="4.5.2" targetFramework="net472" />
-  <package id="HtmlAgilityPack" version="1.11.7" targetFramework="net45" />
-  <package id="ScrapySharp" version="3.0.0" targetFramework="net472" />
+  package id="FSharp.Core" version="4.5.2"  
+  package id="HtmlAgilityPack" version="1.11.7"  
+  package id="ScrapySharp" version="3.0.0"  
 
 To download:
 
