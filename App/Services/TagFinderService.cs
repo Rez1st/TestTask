@@ -54,7 +54,7 @@ namespace App.Services
         public string Locate(string filePath)
         {
             HtmlNode foundNode = null;
-            int foundNodeCounter = default;
+            var foundNodeCounter = 0;
 
             var doc = new HtmlDocument();
             doc.Load(filePath);
